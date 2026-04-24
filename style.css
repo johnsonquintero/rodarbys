@@ -1,6 +1,6 @@
 body {
     display: flex;
-    align-items: center;
+    align-items: center; /* Remove to fix navbar */
     flex-direction: column;
     background-color: #F5F5F5;
     margin: 0;
@@ -34,25 +34,24 @@ img {
 img:hover {
     transform: scale(1.05);
 }
-
-a {
-    color: #FDB927;
-    text-decoration: none;
-    font-weight: bold;
-
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    position: sticky;
 }
 
-a:hover {
-    color: #1D428A;
-    text-decoration: underline;
+ul li a {
+display: block;
+color: white;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: darkred;
 }
 
 
-
-
-a {
-    color: white;
-    background-color: #FDB927;
-    padding: 10px 20px;
-    border-radius: 6px;
-}
