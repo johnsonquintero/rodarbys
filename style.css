@@ -54,4 +54,82 @@ ul li a:hover {
     background-color: darkred;
 }
 
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: 20px auto;
+}
+
+/* hide slides */
+.mySlides {
+    display: none;
+}
+
+/* next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease;
+    border-radius: 3px;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* right button */
+.next {
+    right: 0;
+}
+
+/* hover effect */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Dots */
+.dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 5px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.active {
+    background-color: #333;
+}
+
+/* Fade animation */
+.fade {
+    animation: fade 1.5s;
+}
+
 

@@ -19,9 +19,10 @@ Project: Dream Destination Website
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
     </ul>
     <!-- End of Nav Bar Code-->
+
     <!-- Title -->
     <h1>Welcome to Arby's!</h1>
 
@@ -29,11 +30,48 @@ Project: Dream Destination Website
     <img src="rodmeal.png" alt="ROD MEAL" width="500">
     <!-- idk -->
 
-   
-    <p>arbys
-       
+    <p>The Rod Wave Box <br> <br>
+
+        Choose between 3 mains. The Meat Mountain, Crispy Chicken Sandwich or Greek Gyro. <br>
+        Choose between 3 sides. Curly Fries, Chitlins, or Watergate Salad. <br>
+        Choose between 3 beverages. Strawberry Lemonade, Sprite, or Let's Get Married Oreo Milkshake.
     </p>
 
+    <!-- slideshow -->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="arbysfries.avif" style="width:100%">
+            <div class="text">Arby's Fries</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="arbysshake.avif" style="width:100%">
+            <div class="text">Arby's Shake</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="arbysbeef.avif" style="width:100%">
+            <div class="text">Arby's Beef</div>
+        </div>
+
+        <!-- next/prev buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <!-- dots -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
 
